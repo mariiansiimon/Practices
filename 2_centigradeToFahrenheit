@@ -1,0 +1,7 @@
+#Centigrades and Fahrenheit
+
+centi = int( input( 'Centigrades : ' ))
+
+faren = ( centi * 1.8 ) + 32
+
+print('Fahrenheit = ', faren )
