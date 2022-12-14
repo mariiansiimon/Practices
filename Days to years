@@ -1,8 +1,0 @@
-#it gets days and give back years and months an days
-
-rooz = int( input( 'How many days? :' ) )
-year = rooz // 365
-month = ( rooz % 365 ) // 52
-day = rooz % 365
-
-print ( str(year),'Year+s', str(month), 'Month+s', str(day), 'Day+s' )
