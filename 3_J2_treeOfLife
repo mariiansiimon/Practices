@@ -1,0 +1,47 @@
+# Session 2 TREE OF LIFE
+
+patrons = input( 'Patrons?  choose one : Some or Full or None   : ' )
+if patrons == "Full":
+    wait = int( input('waitEstimate? : ') )
+    if 0 < wait <= 10 :
+        print( 'YES' )
+    
+    elif 10 < wait <= 30: 
+        hungry = input ( 'hungry? choose : Yes or No :' )
+        if hungry == 'yes': 
+            alt = input( 'Alternate? choose : Yes or No : ' )
+            if alt == 'yes':
+                rain = input( 'Raining? choose : Yes or No : ')
+                if rain == 'yes':
+                    print( 'YES' )  
+                else:
+                    print( 'NO' )
+        elif hungry == 'no': 
+            print( 'YES' )   
+    
+    elif 30 < wait <= 60:
+        alter = input( 'Alternate? choose : Yes or No : ' )
+        if alter == 'yes':
+            day = input( 'Friday/Saturday? choose : Yes or No : ' )
+            if day == 'no':
+                print( 'NO' )
+            else:
+                print( 'YES' )
+        elif alter == 'no':
+            res = input( 'Reservation?choose : Yes or No : ' )
+            if res == 'yes':
+                print( 'YES' )
+            else:
+                bar = input( 'Bar? choose : Yes or No : ' )
+ 
+    else:
+        print( 'NO' )
+   
+elif patrons == 'None' :
+    print( 'NO' ) 
+
+elif patrons == 'some': 
+    print( 'YES' )
+
+else:
+    print( 'Wrong answer!' )
