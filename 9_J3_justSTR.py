@@ -10,5 +10,6 @@ for i in note:
     if i.isdigit():
         digit = int(digit) + int(i) 
     else:
-        print(note)
+        alpha += i
 print(digit)
+print(alpha)
