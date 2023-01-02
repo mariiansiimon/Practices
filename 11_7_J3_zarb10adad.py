@@ -5,5 +5,5 @@ zarb = 1
 
 for i in range(10):
     num = input( 'Number : ' )
-
-   # print(num)
+    num *= zarb
+print(num)
