@@ -9,3 +9,8 @@ for i in range(15):
     print(earthW)
     moonW = earthW * 0.165
     print(moonW)
+    
+    # another way 
+
+for i in range(80 , 80+  15):
+    print( i * 0.165 )
