@@ -10,14 +10,11 @@ print(name ,'/', newName)
 # second
 
 name1= 'simon'
+revers = ''
 
-s = -1
-for i in name1:
-    s *= i
-    print(i)
-
-
-
+for ch in name1:
+    revers = ch + revers
+print(name1, '/', revers)
 
 
 
