@@ -20,3 +20,18 @@ for i in range(0, num + 1 , 5) :
     jam += i
     print(i)
 print(jam)
+
+
+# Teacher's code
+
+n = 1000
+s_odd = 0
+s_5 = 0
+
+for i in range( n + 1 ):
+    if i % 2 != 0:
+        s_odd += i
+    if i % 2 == 0 :
+        s_5 += i
+
+s_5 * s_odd
