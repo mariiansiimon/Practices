@@ -8,3 +8,11 @@ fact = 1
 for i in range(1,number+1):
     fact *= i
 print(fact)
+
+
+# SECOND WAY
+
+while number > 0 :
+    fact += number 
+    number -= 1
+print(fact)
